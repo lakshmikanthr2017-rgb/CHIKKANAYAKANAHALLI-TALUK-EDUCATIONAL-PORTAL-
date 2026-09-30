@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chikkanayakanahalli Taluk Educational Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="logo">
+        <h1>CHIKKANAYAKANAHALLI</h1>
+        <p>TALUK EDUCATIONAL PORTAL</p>
+    </div>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</header>
+
+<nav id="menu">
+    <a href="#home">Home</a>
+    <a href="#schools">Schools</a>
+    <a href="#teachers">Teacher Corner</a>
+    <a href="#students">Student Corner</a>
+    <a href="#materials">Study Materials</a>
+    <a href="#results">Results</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+    <h2>ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿ ತಾಲ್ಲೂಕು ಶೈಕ್ಷಣಿಕ ಪೋರ್ಟಲ್</h2>
+    <p>
+        ಶಿಕ್ಷಣ ಇಲಾಖೆಯ ಮಾಹಿತಿ, ಶಾಲಾ ಸಂಪನ್ಮೂಲಗಳು,
+        ಶಿಕ್ಷಕರ ಹಾಗೂ ವಿದ್ಯಾರ್ಥಿಗಳ ಕಲಿಕಾ ಸಾಮಗ್ರಿಗಳಿಗಾಗಿ
+        ಒಂದೇ ವೇದಿಕೆ.
+    </p>
+
+    <input
+        type="text"
+        id="searchBox"
+        placeholder="Search... / ಹುಡುಕಿ"
+        onkeyup="searchContent()"
+    >
+</section>
+
+<section class="container">
+
+    <div class="cards">
+
+        <div class="card" id="schools">
+            <span>🏫</span>
+            <h3>Schools</h3>
+            <p>ತಾಲ್ಲೂಕಿನ ಶಾಲೆಗಳ ಮಾಹಿತಿ</p>
+            <button>Open</button>
+        </div>
+
+        <div class="card" id="teachers">
+            <span>👨‍🏫</span>
+            <h3>Teacher Corner</h3>
+            <p>ಶಿಕ್ಷಕರಿಗೆ ಅಗತ್ಯವಾದ ಮಾಹಿತಿ</p>
+            <button>Open</button>
+        </div>
+
+        <div class="card" id="students">
+            <span>👨‍🎓</span>
+            <h3>Student Corner</h3>
+            <p>ವಿದ್ಯಾರ್ಥಿಗಳ ಕಲಿಕಾ ಸಂಪನ್ಮೂಲಗಳು</p>
+            <button>Open</button>
+        </div>
+
+        <div class="card" id="materials">
+            <span>📚</span>
+            <h3>Study Materials</h3>
+            <p>Notes, Question Papers & PDFs</p>
+            <button>Open</button>
+        </div>
+
+        <div class="card" id="results">
+            <span>📊</span>
+            <h3>Results</h3>
+            <p>ಪರೀಕ್ಷಾ ಫಲಿತಾಂಶಗಳು</p>
+            <button>Open</button>
+        </div>
+
+        <div class="card">
+            <span>📢</span>
+            <h3>Notifications</h3>
+            <p>ಇತ್ತೀಚಿನ ಪ್ರಕಟಣೆಗಳು</p>
+            <button>Open</button>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="notice">
+    <h2>📢 Latest Notifications</h2>
+
+    <div class="notice-item">
+        ಹೊಸ ಶೈಕ್ಷಣಿಕ ಮಾಹಿತಿಗಾಗಿ ಈ ವಿಭಾಗವನ್ನು ಪರಿಶೀಲಿಸಿ.
+    </div>
+
+    <div class="notice-item">
+        ಶಿಕ್ಷಕರ ತರಬೇತಿ ಮತ್ತು ಇಲಾಖಾ ಪ್ರಕಟಣೆಗಳು ಇಲ್ಲಿ ಲಭ್ಯ.
+    </div>
+</section>
+
+<footer id="contact">
+    <h3>CHIKKANAYAKANAHALLI TALUK EDUCATIONAL PORTAL</h3>
+    <p>ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿ ತಾಲ್ಲೂಕು | ತುಮಕೂರು ಜಿಲ್ಲೆ | ಕರ್ನಾಟಕ</p>
+    <p>© 2026 Educational Portal</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
